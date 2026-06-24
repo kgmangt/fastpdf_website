@@ -9,9 +9,10 @@ const AppState = {
     officeFile: null, 
     orgFileBuffer: null,
     orgPagesConfig: [],
-    // ⚠️ 아래 URL은 본인의 Render/Railway Gotenberg 컨테이너 주소로 나중에 변경해야 합니다.
-   GOTENBERG_API_URL = 'https://gotenberg-production-114c.up.railway.app/forms/libreoffice/convert'
+    // ⚠️ 등호(=)를 콜론(:)으로 수정했습니다!
+    GOTENBERG_API_URL: 'https://gotenberg-production-114c.up.railway.app/forms/libreoffice/convert'
 };
+
 // 브라우저 기본 드롭다운 이벤트 방지
 window.addEventListener('dragover', (e) => e.preventDefault(), false);
 window.addEventListener('drop', (e) => e.preventDefault(), false);
