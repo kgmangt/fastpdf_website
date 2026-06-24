@@ -8,7 +8,8 @@ const AppState = {
     officeFile: null, 
     orgFileBuffer: null,
     orgPagesConfig: [],
-    GOTENBERG_API_URL: '/api/convert'
+    GOTENBERG_API_URL:
+'https://gotenberg-production-114c.up.railway.app/forms/libreoffice/convert'
 };
 
 // 브라우저 기본 드롭다운 이벤트 방지
