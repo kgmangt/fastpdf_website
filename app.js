@@ -171,6 +171,7 @@ async function executeOfficeToPdf() {
 
         const response = await fetch(AppState.GOTENBERG_API_URL, {
             method: 'POST',
+            mode: 'cors',
             body: formData
         });
 
