@@ -1,7 +1,6 @@
 /**
  * fastpdf Core Module - 하이브리드 로컬 & 백엔드 통신 스택 (가독성 복구 버전)
  */
-
 const AppState = {
     mergeFiles: [],
     convertImages: [],
@@ -9,8 +8,7 @@ const AppState = {
     officeFile: null, 
     orgFileBuffer: null,
     orgPagesConfig: [],
-    // ⚠️ 등호(=)를 콜론(:)으로 수정했습니다!
-    GOTENBERG_API_URL: 'https://gotenberg-production-114c.up.railway.app/forms/libreoffice/convert'
+    GOTENBERG_API_URL: '/api/convert'
 };
 
 // 브라우저 기본 드롭다운 이벤트 방지
